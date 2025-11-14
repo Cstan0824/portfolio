@@ -1,251 +1,263 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Portfolio — Cstan</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Portfolio — Cstan</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <header class="site-header" data-sticky>
-    <div class="container header-inner">
-      <a class="logo" href="#home">Cstan</a>
-      <nav class="nav" aria-label="Primary">
-        <a href="#home" class="nav-link active">Home</a>
-        <a href="#about" class="nav-link">About</a>
-        <a href="#projects" class="nav-link">Portfolio</a>
-        <a href="#contact" class="nav-link">Contact</a>
-      </nav>
-      <div class="header-actions">
-        <a class="resume-btn" href="../resume/1.png" target="_blank" rel="noreferrer">Download CV</a>
-        <button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation">☰</button>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <section id="home" class="hero" data-animate>
-      <div class="container hero-grid">
-        <div class="hero-left">
-          <div class="kicker" data-animate="fade-up">Ready to Innovate</div>
-          <h1 class="hero-title" data-animate="fade-up" data-delay="0.1">
-            <span class="title-line">Full Stack</span>
-            <span class="title-line accent">Engineer crafting delightful products.</span>
-          </h1>
-          <p class="lead" data-animate="fade-up" data-delay="0.2">I build human-centered experiences with smooth interactions, robust architecture, and thoughtful polish.</p>
-
-          <div class="pills" data-animate="fade-up" data-delay="0.3">
-            <span class="pill">React</span>
-            <span class="pill">TypeScript</span>
-            <span class="pill">Node.js</span>
-            <span class="pill">Cloud</span>
-          </div>
-
-          <div class="hero-cta" data-animate="fade-up" data-delay="0.4">
-            <a class="btn glow" href="#projects">View Projects</a>
-            <a class="btn outline" href="../resume/1.png" target="_blank" rel="noreferrer">Download CV</a>
-          </div>
-
-          <div class="socials" data-animate="fade-up" data-delay="0.5">
-            <a href="#" class="social" aria-label="GitHub"><span>GH</span></a>
-            <a href="#" class="social" aria-label="LinkedIn"><span>in</span></a>
-            <a href="#" class="social" aria-label="Instagram"><span>IG</span></a>
-          </div>
-        </div>
-
-        <div class="hero-right" data-animate="float">
-          <div class="hero-visual">
-            <div class="floating-card" data-animate="fade-up" data-delay="0.15">
-              <div class="floating-header">
-                <span class="dot"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-              </div>
-              <div class="floating-body">
-                <p>Currently prototyping a multi-tenant analytics platform and leading the UX initiative.</p>
-                <ul>
-                  <li>Design systems</li>
-                  <li>Accessibility reviews</li>
-                  <li>Progressive enhancement</li>
-                </ul>
-              </div>
+    <header class="site-header" data-sticky>
+        <div class="container header-inner">
+            <a class="logo" href="#home">Cstan</a>
+            <nav class="nav" aria-label="Primary">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Portfolio</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <a class="resume-btn" href="../resume/1.png" target="_blank" rel="noreferrer">Download CV</a>
+                <button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation">☰</button>
             </div>
-            <div class="floating-image" data-animate="fade-up" data-delay="0.25">
-              <img src="../resume/2.png" alt="Resume preview" />
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="hero-orb"></div>
-    </section>
+    </header>
 
-    <section class="section highlights" aria-label="Highlights">
-      <div class="container highlight-grid">
-        <article class="highlight-card" data-animate="tilt">
-          <p class="eyebrow">Launch velocity</p>
-          <h3>12+ end-to-end products shipped</h3>
-          <p>Leading cross-functional squads to deliver outcomes, not just features.</p>
-        </article>
-        <article class="highlight-card" data-animate="tilt" data-delay="0.1">
-          <p class="eyebrow">Performance wins</p>
-          <h3>30% faster experiences</h3>
-          <p>Performance budgets, Core Web Vitals, and observability baked in.</p>
-        </article>
-        <article class="highlight-card" data-animate="tilt" data-delay="0.2">
-          <p class="eyebrow">Team impact</p>
-          <h3>Mentor & speaker</h3>
-          <p>Sharing learnings via workshops, docs, and design reviews.</p>
-        </article>
-      </div>
-    </section>
+    <main>
+        <section id="home" class="hero" data-animate>
+            <div class="container hero-grid">
+                <div class="hero-left">
+                    <div class="kicker" data-animate="fade-up">Ready to Innovate</div>
+                    <h1 class="hero-title" data-animate="fade-up" data-delay="0.1">
+                        <span class="title-line">Full Stack</span>
+                        <span class="title-line accent">Engineer crafting delightful products.</span>
+                    </h1>
+                    <p class="lead" data-animate="fade-up" data-delay="0.2">I build human-centered experiences with
+                        smooth interactions, robust architecture, and thoughtful polish.</p>
 
-    <section id="about" class="section about-section">
-      <div class="container about-grid">
-        <div class="about-copy" data-animate="fade-up">
-          <p class="eyebrow">About Me</p>
-          <h2>Builder of calm, confident experiences.</h2>
-          <p>I believe products should feel effortless. My approach blends UX research, component-driven development, and resilient architecture to keep teams shipping.</p>
-          <ul class="about-list">
-            <li>Design systems stewardship & accessibility audits</li>
-            <li>Frontend architecture with React, Next.js, Remix</li>
-            <li>API orchestration, GraphQL, and serverless patterns</li>
-          </ul>
-        </div>
-        <div class="stats-grid" data-animate="fade-up" data-delay="0.2">
-          <div class="stat card">
-            <div class="stat-top">&lt;/&gt;</div>
-            <div class="stat-body">Total Projects</div>
-            <div class="stat-num">18</div>
-          </div>
-          <div class="stat card">
-            <div class="stat-top">🎓</div>
-            <div class="stat-body">Certificates</div>
-            <div class="stat-num">6</div>
-          </div>
-          <div class="stat card">
-            <div class="stat-top">🌐</div>
-            <div class="stat-body">Years Experience</div>
-            <div class="stat-num">5</div>
-          </div>
-          <div class="stat card">
-            <div class="stat-top">🤝</div>
-            <div class="stat-body">Teams Led</div>
-            <div class="stat-num">4</div>
-          </div>
-        </div>
-      </div>
-    </section>
+                    <div class="pills" data-animate="fade-up" data-delay="0.3">
+                        <span class="pill">React</span>
+                        <span class="pill">TypeScript</span>
+                        <span class="pill">Node.js</span>
+                        <span class="pill">Cloud</span>
+                    </div>
 
-    <section class="section experience" aria-label="Experience">
-      <div class="container">
-        <h2 data-animate="fade-up">Experience</h2>
-        <div class="timeline" data-animate="fade-up" data-delay="0.1">
-          <article class="timeline-card">
-            <div class="timeline-meta">
-              <p class="eyebrow">2022 — Present</p>
-              <p>Lead Software Engineer · Acme Cloud</p>
+                    <div class="hero-cta" data-animate="fade-up" data-delay="0.4">
+                        <a class="btn glow" href="#projects">View Projects</a>
+                        <a class="btn outline" href="../resume/1.png" target="_blank" rel="noreferrer">Download CV</a>
+                    </div>
+
+                    <div class="socials" data-animate="fade-up" data-delay="0.5">
+                        <a href="#" class="social" aria-label="GitHub"><span>GH</span></a>
+                        <a href="#" class="social" aria-label="LinkedIn"><span>in</span></a>
+                        <a href="#" class="social" aria-label="Instagram"><span>IG</span></a>
+                    </div>
+                </div>
+
+                <div class="hero-right" data-animate="float">
+                    <div class="hero-visual">
+                        <div class="floating-card" data-animate="fade-up" data-delay="0.15">
+                            <div class="floating-header">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+                            <div class="floating-body">
+                                <p>Currently prototyping a multi-tenant analytics platform and leading the UX
+                                    initiative.</p>
+                                <ul>
+                                    <li>Design systems</li>
+                                    <li>Accessibility reviews</li>
+                                    <li>Progressive enhancement</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="floating-image" data-animate="fade-up" data-delay="0.25">
+                            <img src="../resume/2.png" alt="Resume preview" />
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p>Guiding the platform team to ship dashboards used by 40k+ users. Introduced accessibility reviews and improved onboarding time by 25%.</p>
-          </article>
-          <article class="timeline-card">
-            <div class="timeline-meta">
-              <p class="eyebrow">2020 — 2022</p>
-              <p>Senior Frontend Developer · Studio Labs</p>
+            <div class="hero-orb"></div>
+        </section>
+
+        <section class="section highlights" aria-label="Highlights">
+            <div class="container highlight-grid">
+                <article class="highlight-card" data-animate="tilt">
+                    <p class="eyebrow">Launch velocity</p>
+                    <h3>12+ end-to-end products shipped</h3>
+                    <p>Leading cross-functional squads to deliver outcomes, not just features.</p>
+                </article>
+                <article class="highlight-card" data-animate="tilt" data-delay="0.1">
+                    <p class="eyebrow">Performance wins</p>
+                    <h3>30% faster experiences</h3>
+                    <p>Performance budgets, Core Web Vitals, and observability baked in.</p>
+                </article>
+                <article class="highlight-card" data-animate="tilt" data-delay="0.2">
+                    <p class="eyebrow">Team impact</p>
+                    <h3>Mentor & speaker</h3>
+                    <p>Sharing learnings via workshops, docs, and design reviews.</p>
+                </article>
             </div>
-            <p>Built a design system powering 5 product lines, wrote internal tooling to reduce bundle size, and mentored juniors.</p>
-          </article>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="container about-grid">
+                <div class="about-copy" data-animate="fade-up">
+                    <p class="eyebrow">About Me</p>
+                    <h2>Builder of calm, confident experiences.</h2>
+                    <p>I believe products should feel effortless. My approach blends UX research, component-driven
+                        development, and resilient architecture to keep teams shipping.</p>
+                    <ul class="about-list">
+                        <li>Design systems stewardship & accessibility audits</li>
+                        <li>Frontend architecture with React, Next.js, Remix</li>
+                        <li>API orchestration, GraphQL, and serverless patterns</li>
+                    </ul>
+                </div>
+                <div class="stats-grid" data-animate="fade-up" data-delay="0.2">
+                    <div class="stat card">
+                        <div class="stat-top">&lt;/&gt;</div>
+                        <div class="stat-body">Total Projects</div>
+                        <div class="stat-num">18</div>
+                    </div>
+                    <div class="stat card">
+                        <div class="stat-top">🎓</div>
+                        <div class="stat-body">Certificates</div>
+                        <div class="stat-num">6</div>
+                    </div>
+                    <div class="stat card">
+                        <div class="stat-top">🌐</div>
+                        <div class="stat-body">Years Experience</div>
+                        <div class="stat-num">5</div>
+                    </div>
+                    <div class="stat card">
+                        <div class="stat-top">🤝</div>
+                        <div class="stat-body">Teams Led</div>
+                        <div class="stat-num">4</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section experience" aria-label="Experience">
+            <div class="container">
+                <h2 data-animate="fade-up">Experience</h2>
+                <div class="timeline" data-animate="fade-up" data-delay="0.1">
+                    <article class="timeline-card">
+                        <div class="timeline-meta">
+                            <p class="eyebrow">2022 — Present</p>
+                            <p>Lead Software Engineer · Acme Cloud</p>
+                        </div>
+                        <p>Guiding the platform team to ship dashboards used by 40k+ users. Introduced accessibility
+                            reviews and improved onboarding time by 25%.</p>
+                    </article>
+                    <article class="timeline-card">
+                        <div class="timeline-meta">
+                            <p class="eyebrow">2020 — 2022</p>
+                            <p>Senior Frontend Developer · Studio Labs</p>
+                        </div>
+                        <p>Built a design system powering 5 product lines, wrote internal tooling to reduce bundle size,
+                            and mentored juniors.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects-section" aria-label="Projects">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <p class="eyebrow">Selected Work</p>
+                        <h2>Signature projects with polish.</h2>
+                    </div>
+                    <div class="controls">
+                        <button class="scroll-btn" data-scroll="prev" aria-label="Previous projects">←</button>
+                        <button class="scroll-btn" data-scroll="next" aria-label="Next projects">→</button>
+                    </div>
+                </div>
+
+                <div class="projects-track" data-track>
+                    <article class="project card" data-animate="fade-up">
+                        <div class="project-tag">Platform</div>
+                        <h3>IntervueAI</h3>
+                        <p>Real-time mock interviews with AI. Deployed multi-region edge functions, reduced wait time to
+                            &lt;1s.</p>
+                        <div class="project-links">
+                            <a href="#" class="link">Live Demo</a>
+                            <a href="#" class="btn small">Case Study</a>
+                        </div>
+                    </article>
+
+                    <article class="project card" data-animate="fade-up" data-delay="0.1">
+                        <div class="project-tag">Social</div>
+                        <h3>Blendy</h3>
+                        <p>A social app connecting communities. Implemented offline sync, biometrics login, and motion
+                            design.</p>
+                        <div class="project-links">
+                            <a href="#" class="link">Live Demo</a>
+                            <a href="#" class="btn small">Details</a>
+                        </div>
+                    </article>
+
+                    <article class="project card" data-animate="fade-up" data-delay="0.2">
+                        <div class="project-tag">Media</div>
+                        <h3>WATCHit</h3>
+                        <p>Streaming experience with personalized rails, watch parties, and cross-device continuity.</p>
+                        <div class="project-links">
+                            <a href="#" class="link">Live Demo</a>
+                            <a href="#" class="btn small">Highlights</a>
+                        </div>
+                    </article>
+
+                    <article class="project card" data-animate="fade-up" data-delay="0.3">
+                        <div class="project-tag">Commerce</div>
+                        <h3>LoopCart</h3>
+                        <p>Micro-frontend commerce platform. Led migration from monolith to modular design system.</p>
+                        <div class="project-links">
+                            <a href="#" class="link">Shop</a>
+                            <a href="#" class="btn small">Deck</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="center" data-animate="fade-up">Let's build something together.</h2>
+                <p class="muted center" data-animate="fade-up" data-delay="0.1">Send a message and I'll reply within 48
+                    hours.</p>
+
+                <div class="contact-wrap" data-animate="fade-up" data-delay="0.2">
+                    <div class="contact-card card">
+                        <h3>Get in Touch</h3>
+                        <form id="contactForm">
+                            <label class="sr-only" for="name">Name</label>
+                            <input id="name" type="text" name="name" placeholder="Your Name" required />
+                            <label class="sr-only" for="email">Email</label>
+                            <input id="email" type="email" name="email" placeholder="Your Email" required />
+                            <label class="sr-only" for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your Message" rows="6"
+                                required></textarea>
+                            <div class="form-actions">
+                                <button class="btn glow" type="submit">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <small>© <span id="year"></span> Cstan — Built with HTML, CSS & JS</small>
         </div>
-      </div>
-    </section>
+    </footer>
 
-    <section id="projects" class="section projects-section" aria-label="Projects">
-      <div class="container">
-        <div class="section-header">
-          <div>
-            <p class="eyebrow">Selected Work</p>
-            <h2>Signature projects with polish.</h2>
-          </div>
-          <div class="controls">
-            <button class="scroll-btn" data-scroll="prev" aria-label="Previous projects">←</button>
-            <button class="scroll-btn" data-scroll="next" aria-label="Next projects">→</button>
-          </div>
-        </div>
-
-        <div class="projects-track" data-track>
-          <article class="project card" data-animate="fade-up">
-            <div class="project-tag">Platform</div>
-            <h3>IntervueAI</h3>
-            <p>Real-time mock interviews with AI. Deployed multi-region edge functions, reduced wait time to &lt;1s.</p>
-            <div class="project-links">
-              <a href="#" class="link">Live Demo</a>
-              <a href="#" class="btn small">Case Study</a>
-            </div>
-          </article>
-
-          <article class="project card" data-animate="fade-up" data-delay="0.1">
-            <div class="project-tag">Social</div>
-            <h3>Blendy</h3>
-            <p>A social app connecting communities. Implemented offline sync, biometrics login, and motion design.</p>
-            <div class="project-links">
-              <a href="#" class="link">Live Demo</a>
-              <a href="#" class="btn small">Details</a>
-            </div>
-          </article>
-
-          <article class="project card" data-animate="fade-up" data-delay="0.2">
-            <div class="project-tag">Media</div>
-            <h3>WATCHit</h3>
-            <p>Streaming experience with personalized rails, watch parties, and cross-device continuity.</p>
-            <div class="project-links">
-              <a href="#" class="link">Live Demo</a>
-              <a href="#" class="btn small">Highlights</a>
-            </div>
-          </article>
-
-          <article class="project card" data-animate="fade-up" data-delay="0.3">
-            <div class="project-tag">Commerce</div>
-            <h3>LoopCart</h3>
-            <p>Micro-frontend commerce platform. Led migration from monolith to modular design system.</p>
-            <div class="project-links">
-              <a href="#" class="link">Shop</a>
-              <a href="#" class="btn small">Deck</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section contact">
-      <div class="container">
-        <h2 class="center" data-animate="fade-up">Let's build something together.</h2>
-        <p class="muted center" data-animate="fade-up" data-delay="0.1">Send a message and I'll reply within 48 hours.</p>
-
-        <div class="contact-wrap" data-animate="fade-up" data-delay="0.2">
-          <div class="contact-card card">
-            <h3>Get in Touch</h3>
-            <form id="contactForm">
-              <label class="sr-only" for="name">Name</label>
-              <input id="name" type="text" name="name" placeholder="Your Name" required />
-              <label class="sr-only" for="email">Email</label>
-              <input id="email" type="email" name="email" placeholder="Your Email" required />
-              <label class="sr-only" for="message">Message</label>
-              <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
-              <div class="form-actions">
-                <button class="btn glow" type="submit">Send Message</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <small>© <span id="year"></span> Cstan — Built with HTML, CSS & JS</small>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
